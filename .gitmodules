@@ -1,0 +1,3 @@
+[submodule "lib/ezcomponents"]
+	path = lib/ezcomponents
+	url = git://github.com/gewthen/ezcomponents.git

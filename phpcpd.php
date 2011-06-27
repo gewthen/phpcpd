@@ -42,6 +42,13 @@
  * @since     File available since Release 1.0.0
  */
 
+
+$rootDir = dirname(__FILE__)."/";
+set_include_path(
+
+$rootDir."lib/php-ezcomponents" . PATH_SEPARATOR .
+$rootDir."lib/ezcomponents" . PATH_SEPARATOR . get_include_path());
+
 if (strpos('@php_bin@', '@php_bin') === 0) {
     set_include_path(dirname(__FILE__) . PATH_SEPARATOR . get_include_path());
 }
