@@ -1,0 +1,9 @@
+[submodule "lib/php-file-iterator"]
+	path = lib/php-file-iterator
+	url = https://github.com/sebastianbergmann/php-file-iterator.git
+[submodule "lib/php-timer"]
+	path = lib/php-timer
+	url = https://github.com/sebastianbergmann/php-timer.git
+[submodule "lib/ezcomponents"]
+	path = lib/ezcomponents
+	url = git://github.com/gewthen/ezcomponents.git
